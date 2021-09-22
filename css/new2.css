@@ -1,0 +1,50 @@
+  body {
+    background-image: url(https://wallpaperaccess.com/thumb/3342167.jpg);
+    background-color: rgb(166, 219, 240);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+  }
+  table {
+    font-family: 'Open Sans', sans-serif;
+    width: 750px;
+    border-collapse: collapse;
+    border: 3px solid #44475C;
+    margin: 10px 10px 0 10px;
+  }
+  
+  table th {
+    text-transform: uppercase;
+    background: rgb(58,53,117);
+    color: rgb(252, 176, 35);
+    padding: 8px;
+    min-width: 40px;
+  }
+  
+  table td {
+    padding: 8px;
+    border-right: 2px solid #7D82A8;
+    color: rgb(44, 37, 37);
+  }
+  table td:last-child {
+    border-right: none;
+  }
+  table tbody tr:nth-child(2n) td {
+    background: #a1a2aa;
+  }
+  form {
+    padding: 8px;
+
+  }
+  .float-button {
+    position: fixed;
+    right: -77px;
+    top: 270px;
+    transition: all 0.2s ease-in 0s;
+    z-index: 9999;
+    cursor: pointer;
+    }
+    .float-button:hover {
+      right: -7px;
+      }
+

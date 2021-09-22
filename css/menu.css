@@ -1,0 +1,82 @@
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgb(26, 22, 63);
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: rgb(58,53,117);
+}
+
+.dropbtn {
+  background-color: rgb(26, 22, 63);
+  color: white;
+  padding: 14px 16px;
+  border: none;
+}
+
+.dropdown {
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #8d989b;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(88, 87, 87, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float:none;
+  color: rgb(250, 187, 15);
+  padding: 12px 16px;
+  display: block;
+  text-decoration: none;
+}
+
+.dropdown-content a:hover {background-color: rgb(58,53,117);}
+  
+.dropdown:hover .dropdown-content {display: block;}
+
+
+.dropdown:hover .dropbtn {background-color: rgb(58,53,117);}
+
+table {
+  border-collapse: collapse;
+  border: solid rgb(2, 24, 63);
+}
+
+th, td {
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(odd){background-color: #b0e2e2}
+
+th {
+  background-color: #be049f;
+  color: white;
+}
+
+
+body {
+  background-image: url('https://graphicriver.img.customer.envatousercontent.com/files/257417690/preview.jpg?auto=compress%2Cformat&q=80&fit=crop&crop=top&max-h=8000&max-w=590&s=589bb9b6753c55749b8b6144f9227128');
+}
+

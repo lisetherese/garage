@@ -1,0 +1,68 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,600);
+
+
+.day {
+  width: 18%;
+  height: 100vh;
+  float: left;
+  background-color: #fff;
+  background-image: linear-gradient(rgba(29, 28, 28, 0.08) 50%, transparent 50%);
+  background-size: 1px 20%;
+  border:thin solid rgb(27, 5, 68);
+}
+
+.day.time { width: 10%;}
+
+.day_title {
+  height: 10%;
+  background-color: #42607e;
+  font-size: 14px;
+  font-weight: 600;
+  text-transform: uppercase;
+  text-align: center;
+  line-height: 10vh;
+}
+
+.hour {
+  height: 10%;
+  background-color: rgba(82, 115, 148, 0.9);
+  font-size: 16px;
+  text-align: center;
+  line-height: 10vh;
+  border:thin solid rgb(27, 5, 68);
+}
+
+.class {
+  width: 100%;
+  height: 15vh; /*90min*/
+  line-height: 15vh;
+  background-color: magenta;
+  font-size: 1vw;
+  font-weight: 300;
+  padding-left: 10px;
+}
+
+.class.demi { height: 5vh; line-height: 5vh; } /* 30min class */
+.class.uneheure { height: 10vh; line-height: 10vh; }
+.class.unedemi { height: 15vh; line-height: 15vh; }
+.class.deux { height: 20vh; line-height: 20vh; }
+.class.troisdemi { height: 35vh; line-height: 35vh; }
+.class.b1h { margin-top: 10vh; } /* after 1h break */
+.class.b1h30 { margin-top: 15vh; } /* after 1h30 break */
+
+
+.green { background-color: #2ecc71; }
+.turquoise { background-color: #1abc9c; }
+.navy { background-color: #34495e; }
+.blue { background-color: #3498db; }
+.purple { background-color: #9b59b6; }
+.grey { background-color: #bdc3c7; color: #202020; }
+.gray { background-color: #7f8c8d; }
+.red { background-color: #e74c3c; }
+.orange { background-color: #f39c12; }
+.yellow { background-color: #f1c40f; color: #303030; }
+
+.spacing { background-color: transparent; }
+
+
+
