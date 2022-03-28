@@ -3,7 +3,7 @@ include_once('entete.php');
 include_once('fonction.php');?>
 <br>
 <br>
-
+<div style="margin:auto; width: 27%;">
 
 <form action="inscriptionInsertController.php" method ="post">
 
@@ -34,7 +34,7 @@ include_once('fonction.php');?>
   <input type="submit" value="S'inscrire">
 </form> 
 
-
+</div>
 
 
 </body>
